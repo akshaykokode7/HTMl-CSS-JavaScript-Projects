@@ -19,7 +19,7 @@ function closeModal() {
     }, 500)
 }
 
-modal.addEventListener('clock', function(e) {
+modal.addEventListener('click', function(e) {
     if(e.target.classList.contains('modal')) {
         closeModal;
     }
